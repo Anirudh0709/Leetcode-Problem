@@ -18,3 +18,5 @@ class Solution:
         exchange_list.sort()
         mid_point = len(exchange_list) // 2
         return sum(min(fruit_type, min_fruit_type * 2) for fruit_type in exchange_list[:mid_point])
+
+        
