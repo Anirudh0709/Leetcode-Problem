@@ -2,6 +2,7 @@ class Solution:
   def totalFruit(self, fruits: list[int]) -> int:
     ans = 0
     count = collections.defaultdict(int)
+
     l = 0
     for r, fruit in enumerate(fruits):
       count[fruit] += 1
@@ -11,5 +12,6 @@ class Solution:
           del count[fruits[l]]
         l += 1
       ans = max(ans, r - l + 1)
+
     return ans
         
