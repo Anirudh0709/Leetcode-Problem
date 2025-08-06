@@ -48,3 +48,5 @@ class Solution(object):
                 assign_value(position, 0, 1, 0, n - 1)
 
         return unplaced_fruits
+
+        
