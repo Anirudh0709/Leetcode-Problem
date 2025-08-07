@@ -39,3 +39,4 @@ class Solution:
 
     return getTopLeft() + getTopRight() + getBottomLeft() - 2 * fruits[-1][-1]
         
+        
