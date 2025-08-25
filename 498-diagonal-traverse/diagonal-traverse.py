@@ -30,3 +30,5 @@ class Solution:
                 d = -d
 
         return ans
+
+        
