@@ -4,7 +4,3 @@ class Solution:
            B = n - A
            if '0' not in str(A) and '0' not in str(B):
              return A, B
-
-
-
-        
